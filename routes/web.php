@@ -12,5 +12,7 @@
 */
 
 //Auth::routes();
-
-
+//
+//Route::get('/', function (){
+//    return 'hello';
+//});
