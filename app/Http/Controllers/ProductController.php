@@ -1,15 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-//use Illuminate\Support\Facades\Request;
-use Illuminate\Http\Request;
 
+use Illuminate\Http\Request;
 use App\Product;
-use function PHPSTORM_META\map;
 
 class ProductController extends Controller
 {
-    public  function getProducts(){
+    public function getProducts(){
         try {
             $productClass = new Product();
             $products = $productClass->getProducts();

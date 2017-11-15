@@ -16,3 +16,4 @@ use Illuminate\Http\Request;
 
 Route::get('/products', 'ProductController@getProducts');
 Route::post('/product/packages', 'ProductController@assignSplitRules');
+Route::post('/product/convert/jsontocsv', 'ConvertJsonToCsvController@getJsonToCsvConvent');
